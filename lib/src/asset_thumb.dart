@@ -89,6 +89,8 @@ class _AssetThumbState extends State<AssetThumb> {
       key: ValueKey(asset.identifier),
       fit: BoxFit.cover,
       gaplessPlayback: true,
+      width: width.toDouble(),
+        height: height.toDouble()
     );
   }
 }
